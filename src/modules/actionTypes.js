@@ -23,4 +23,5 @@ const actionTypes = {
   FETCH_SUCCESS_ACTORS_INFO: 'FETCH_SUCCESS_ACTORS_INFO',
   FETCH_ERROR_ACTORS_INFO: 'FETCH_ERROR_ACTORS_INFO',
 };
+
 export default actionTypes;

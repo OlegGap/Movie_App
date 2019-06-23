@@ -17,7 +17,6 @@ export const fetchSuccessMovies = (
     })
     .catch(error => dispatch(actions.fetchPopularError(error)));
 };
-
 export const fetchSuccessMovieById = id => dispatch => {
   dispatch(actions.fetchMovieByIdRequest());
   axios
@@ -27,7 +26,6 @@ export const fetchSuccessMovieById = id => dispatch => {
     .then(({ data }) => dispatch(actions.fetchMovieByIdSeccess(data)))
     .catch(error => dispatch(actions.fetchMovieByIdError(error)));
 };
-
 export const fetchSuccessGenres = () => dispatch => {
   dispatch(actions.fetchGenresRequest());
   axios

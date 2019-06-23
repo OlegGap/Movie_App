@@ -16,7 +16,6 @@ class ActorContainer extends Component {
     return <ActorView actor={actor} />;
   }
 }
-
 const mapStateToProps = state => ({
   actor: getActorInfo(state),
 });

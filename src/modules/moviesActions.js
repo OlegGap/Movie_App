@@ -28,7 +28,6 @@ export const fetchMovieByIdRequest = () => ({
 
 export const fetchMovieByIdSeccess = data => ({
   type: types.FETCH_SUCCESS_MOVIE_BY_ID,
-
   payload: {
     data,
   },
