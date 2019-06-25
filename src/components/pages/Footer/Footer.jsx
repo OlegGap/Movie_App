@@ -6,14 +6,9 @@ const Footer = () => {
     <footer className={styles.footer}>
       <p>
         This app was designed by{' '}
-        <a href="https://github.com/SerogaHumenchuk" className={styles.name}>
+        <a href="https://github.com/OlegGap" className={styles.name}>
           {' '}
-          Serhiy Humenchuk
-        </a>{' '}
-        for{' '}
-        <a href="https://morbax.com/" className={styles.company}>
-          {' '}
-          Morbax{' '}
+          Oleh Hnapovskyi
         </a>{' '}
         in 2019
       </p>
