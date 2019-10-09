@@ -1,4 +1,4 @@
-Production [here](https://oleggap.github.io/Movie_App/).
+Production [here](https://oleggap.github.io/Movie_App/)
 
 ## Available Scripts
 
